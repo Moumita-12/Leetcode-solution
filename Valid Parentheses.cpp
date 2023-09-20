@@ -8,7 +8,7 @@ public:
                 stk.push(s[i]);
 
             }
-         else if(!stk.empty() == 0)
+         else if(stk.empty())
             {
                 stk.push(s[i]);
             }
